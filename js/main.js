@@ -1,3 +1,4 @@
+
 $('.wrapper').addClass('loaded');
 
 $('.icon-menu').click(function(event){
@@ -14,7 +15,7 @@ if(ibg[i].querySelector('img')){
 ibg[i].style.backgroundImage = 'url('+ibg[i].querySelector('img').getAttribute('src')+')';
 }
 }
-}
+};
 
 ibg();
 
